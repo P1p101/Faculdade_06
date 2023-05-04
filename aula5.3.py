@@ -1,6 +1,6 @@
-n = int(input('Digite um número inteiro: '))
-i = 1
-while i <= 10:
-    resultado = n - i
-    print(n, '-', i, '=', resultado)
-    i += 1
+# Verifica se é maior de idade.
+idade = int(input('Digite sua idade: '))
+if idade < 18:
+    print('Menor de idade!')
+else:
+    print('É maior de idade!')
